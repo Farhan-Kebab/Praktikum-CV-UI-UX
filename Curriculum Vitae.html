@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Rafi Afrand</title>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+.cv-container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-color: #ccc;
+    margin: 20px 0;
+}
+
+/* Header Profil */
+.profil-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.jabatan {
+    color: #555;
+    font-style: italic;
+}
+
+/* Gaya Foto Profil Bundar */
+.foto-bundar-kontainer {
+    /* Wadah untuk menampung gambar */
+    width: 150px; /* Tentukan lebar dan tinggi yang sama */
+    height: 150px;
+    margin: 0 auto 15px;
+    border-radius: 50%; /* Ini yang membuat bentuknya bundar */
+    overflow: hidden; /* Menyembunyikan bagian gambar di luar batas bundar */
+    border: 4px solid #3498db; /* Opsional: Garis tepi bundar */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Opsional: Bayangan */
+}
+
+.foto-profil {
+    /* Atur gambar di dalamnya */
+    width: 100%; /* Agar gambar mengisi kontainer */
+    height: 100%;
+    object-fit: cover; /* Penting! Ini akan memastikan gambar menutupi area tanpa terdistorsi */
+    display: block;
+}
+
+/* Gaya Bagian Lain */
+section {
+    margin-bottom: 20px;
+}
+
+.kontak ul {
+    list-style: none;
+    padding: 0;
+}
+
+.kontak li {
+    margin-bottom: 5px;
+}
+
+.pendidikan .item, .pengalaman .item {
+    margin-top: 10px;
+}
+    </style>
+</head>
+<body>
+    <div class="cv-container">
+        <header class="profil-header">
+            <div class="foto-bundar-kontainer">
+                <img src="MyFoto.jpg" alt="My Foto Saya" class="foto-profil">
+            </div>
+
+            <h1>Rafi Afrand</h1>
+            <p class="jabatan">Mahasiswa</p>
+        </header>
+
+        <section class="kontak">
+            <h2>Kontak</h2>
+            <ul>
+                <a href="rafiafrand1911@gmail.com" target="_blank">rafiafrand1911@gmail.com</a>
+                <li>088975411992</li>
+                <li>Depok, Jawa Barat, Indonesia</li>
+            </ul>
+        </section>
+
+        <hr>
+
+        <section class="ringkasan">
+            <h2>Ringkasan Profil</h2>
+            <p>Saya adlah Mahasiswa dari STT Terpadu Nurul Fikri dari prodi Teknik Informatika yang sedang melaksanakan semester 1 pada tahun 2025</p>
+        </section>
+
+        <hr>
+
+        <section class="pendidikan">
+            <h2>Pendidikan</h2>
+            <div class="item">
+                <p>STT Terpadu Nurul Fikri, 2025 - Sekarang</p>
+                <p>SMK Harapan Bangsa, 2022 - 2025</p>
+                <p>MTS Nurul Falah Areman, 2018 - 2022</p>
+                <p>MIT Nurul Falah Areman, 2012 - 2018</p>
+            </div>
+        </section>
+
+        <hr>
+ 
+        <section class="pengalaman">
+            <h2>Pengalaman Kerja</h2>
+            <div class="item">
+                <h3>PT. Metro Ring Bersama</h3>
+                <p>Teknisi Lapangan | Juli 2024 - Agustus 2024</p>
+                <ul>
+                    <li>Melakukan instalasi kabel  Fiber Optik sepanjang 900 M.</li>
+                    <li>Menanggapi client sebanyak 4 dalam sehari dengan rata - rata panjang 200 M.</li>
+                </ul>
+            </div>
+        </section>
+        
+        </div>
+</body>
+</html>
